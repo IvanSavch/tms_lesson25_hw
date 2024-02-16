@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 @WebServlet("/calc")
-public class WebApplication extends HttpServlet {
+public class CalculateServlet extends HttpServlet {
     private final OperationService operationService = new OperationService();
 
     @Override
